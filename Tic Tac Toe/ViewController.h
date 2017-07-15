@@ -9,7 +9,23 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UIImage * xImg;
+    IBOutlet UIImage * oImg;
+    bool baraz;
+    NSInteger playerToken;
+    NSInteger numriLevizjeve;
+}
 
+
+-(IBAction)buttonReset:(UIButton *)sender;
+- (IBAction)ResetoLojen:(id)sender;
+
+-(void) updatePlayerInfo;
+-(void) resetBoard;
+-(BOOL) checkForWin;
 
 @end
+
+
 

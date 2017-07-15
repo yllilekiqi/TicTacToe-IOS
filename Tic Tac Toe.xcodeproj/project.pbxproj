@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		515F30D61F141FE000680409 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F30D51F141FE000680409 /* RootTableViewController.m */; };
 		51F30C871F0990E500301972 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F30C861F0990E500301972 /* main.m */; };
 		51F30C8A1F0990E500301972 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F30C891F0990E500301972 /* AppDelegate.m */; };
 		51F30C8D1F0990E500301972 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F30C8C1F0990E500301972 /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		51F30C951F0990E500301972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F30C931F0990E500301972 /* LaunchScreen.storyboard */; };
 		51F30CA01F0990E500301972 /* Tic_Tac_ToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F30C9F1F0990E500301972 /* Tic_Tac_ToeTests.m */; };
 		51F30CAB1F0990E500301972 /* Tic_Tac_ToeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F30CAA1F0990E500301972 /* Tic_Tac_ToeUITests.m */; };
+		51F30CBB1F09915000301972 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 51F30CB81F09915000301972 /* background.png */; };
+		51F30CBC1F09915000301972 /* o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51F30CB91F09915000301972 /* o.jpg */; };
+		51F30CBD1F09915000301972 /* x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51F30CBA1F09915000301972 /* x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		515F30D41F141FE000680409 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		515F30D51F141FE000680409 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
 		51F30C821F0990E500301972 /* Tic Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F30C861F0990E500301972 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51F30C881F0990E500301972 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,9 @@
 		51F30CA61F0990E500301972 /* Tic Tac ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F30CAA1F0990E500301972 /* Tic_Tac_ToeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tic_Tac_ToeUITests.m; sourceTree = "<group>"; };
 		51F30CAC1F0990E500301972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F30CB81F09915000301972 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		51F30CB91F09915000301972 /* o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = o.jpg; sourceTree = "<group>"; };
+		51F30CBA1F09915000301972 /* x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = x.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +111,15 @@
 			isa = PBXGroup;
 			children = (
 				51F30C881F0990E500301972 /* AppDelegate.h */,
+				51F30CB81F09915000301972 /* background.png */,
+				51F30CB91F09915000301972 /* o.jpg */,
+				51F30CBA1F09915000301972 /* x.jpg */,
 				51F30C891F0990E500301972 /* AppDelegate.m */,
 				51F30C8B1F0990E500301972 /* ViewController.h */,
 				51F30C8C1F0990E500301972 /* ViewController.m */,
 				51F30C8E1F0990E500301972 /* Main.storyboard */,
+				515F30D41F141FE000680409 /* RootTableViewController.h */,
+				515F30D51F141FE000680409 /* RootTableViewController.m */,
 				51F30C911F0990E500301972 /* Assets.xcassets */,
 				51F30C931F0990E500301972 /* LaunchScreen.storyboard */,
 				51F30C961F0990E500301972 /* Info.plist */,
@@ -246,7 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F30CBD1F09915000301972 /* x.jpg in Resources */,
+				51F30CBC1F09915000301972 /* o.jpg in Resources */,
 				51F30C951F0990E500301972 /* LaunchScreen.storyboard in Resources */,
+				51F30CBB1F09915000301972 /* background.png in Resources */,
 				51F30C921F0990E500301972 /* Assets.xcassets in Resources */,
 				51F30C901F0990E500301972 /* Main.storyboard in Resources */,
 			);
@@ -276,6 +293,7 @@
 				51F30C8D1F0990E500301972 /* ViewController.m in Sources */,
 				51F30C8A1F0990E500301972 /* AppDelegate.m in Sources */,
 				51F30C871F0990E500301972 /* main.m in Sources */,
+				515F30D61F141FE000680409 /* RootTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +527,7 @@
 				51F30CB11F0990E500301972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51F30CB21F0990E500301972 /* Build configuration list for PBXNativeTarget "Tic Tac ToeTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +536,7 @@
 				51F30CB41F0990E500301972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51F30CB51F0990E500301972 /* Build configuration list for PBXNativeTarget "Tic Tac ToeUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +545,7 @@
 				51F30CB71F0990E500301972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
